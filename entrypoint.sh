@@ -2,5 +2,5 @@
 
 cd $1
 
-composer global require prestashop/php-dev-tools:^v3.14
+composer global require prestashop/php-dev-tools:master
 php ~/.composer/vendor/bin/php-cs-fixer fix $2
